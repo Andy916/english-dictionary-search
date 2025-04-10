@@ -11,7 +11,7 @@ public class DictSearch {
         System.out.println("Enter a word to search for (or 'exit' to quit): ");
         String word = input.next();
         Pattern pattern = Pattern.compile("[\\w-']*" + word + "[\\w-']*\\b", Pattern.CASE_INSENSITIVE);
-        BufferedReader reader = new BufferedReader(new FileReader("../src/words.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("words.txt"));
         System.out.println("Searching for words containing: " + word);
         String line;
         int wordCount = 0;
