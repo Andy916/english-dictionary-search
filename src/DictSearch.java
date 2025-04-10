@@ -1,3 +1,4 @@
+// This program searches for a word in a dictionary file and prints all occurrences of that word.
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.regex.Matcher;
